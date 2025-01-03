@@ -1,10 +1,14 @@
 main{
     display: grid;
     grid-template-columns: 200px 200px 200px;
-    grid-gap:0;
+    grid-gap:16px;
+    background-color: #2B0040;
+}
+
+h1, h2{
+    color: white;
 }
 
 app-square {
-    border: 1px gray solid;
     height: 200px;
 }

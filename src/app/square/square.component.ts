@@ -1,8 +1,9 @@
 import { Component, Input } from '@angular/core';
+import { ClickStyleDirective } from '../directives/click-style.directive';
 
 @Component({
   selector: 'app-square',
-  imports: [],
+  imports: [ClickStyleDirective],
   templateUrl: './square.component.html',
   styleUrl: './square.component.scss'
 })
